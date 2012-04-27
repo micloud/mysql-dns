@@ -10,6 +10,9 @@ This project is implement by the native-dns. Thanks the author!
 
 This is donate by MiCloud team for contribute to the Node.js community of Taiwan.
 
+Installation:
+npm install mysql-dns
+
 Start service:
 $ node dnsserver.js
 
