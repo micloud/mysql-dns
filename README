@@ -1,0 +1,17 @@
+Company: MiTAC
+Organization: MiCloud
+
+This is a project for combine DNS record to MySQL DB.
+Before totally work, you need to create a ns record to point to your server that create by the project.
+And you also need to configure the $PRJ_HOME/conf/default.js to point the MySQL.
+The $PRJ_HOME/sql/*.sql are the default schema for create database table.
+
+This project is implement by the native-dns. Thanks the author!
+
+This is donate by MiCloud team for contribute to the Node.js community of Taiwan.
+
+Start service:
+$ node dnsserver.js
+
+Stop service:(Just kill the running process)
+$ kill -9 `ps -ef |grep dnsserver.js | awk '{print $2}'`

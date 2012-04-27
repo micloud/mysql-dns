@@ -1,0 +1,9 @@
+{
+    "name": "mysql-dns"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "native-dns": ">=0.0.7"
+    , "mysql": "*"
+  }
+}
